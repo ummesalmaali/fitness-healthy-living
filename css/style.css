@@ -112,7 +112,7 @@ header nav .left-side-menu .sub-menu a li {
   -o-transition: all 0.2s;
 }
 header nav .left-side-menu .sub-menu a li:hover {
-  color: var(--button-background);
+  color: #000;
 }
 
 /* .right-side-menu css */
@@ -138,6 +138,7 @@ header .right-side-menu .sub-menu a {
 header .right-side-menu .sub-menu button {
   padding: 0.5rem 2.5rem;
   background-color: var(--button-background);
+  color: #000;
   color: #fff;
   position: relative;
   z-index: 9;
@@ -212,8 +213,8 @@ header .right-side-menu .sub-menu a li:hover {
 .main-hero-section .hero-right-side img {
   width: 90rem;
   height: 80rem;
-  margin-right: 30rem;
-  margin-top: 20rem;
+  margin-right: 25rem;
+  margin-top: 30rem;
 }
 
 /* ...............our second sectipn left side starts from here----------------
@@ -230,16 +231,649 @@ header .right-side-menu .sub-menu a li:hover {
   width: inherit;
   height: inherit;
 }
+.common-section .left-side figure {
+  width: 20rem;
+  height: 65rem;
+  background: #f3f9ff;
+  background-repeat: 20px;
+}
 .common-section .left-side img {
   width: 45rem;
   height: 60rem;
+  border-radius: 2rem;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
+}
+
+/* ...............our second sectipn right side starts from here----------------
+----------------------------------------------------- */
+.common-section .right-side {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  margin-left: 10rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.common-section .right-side h2 {
+  width: 40rem;
+  font-style: normal;
+  font-size: 5.5rem;
+  font-weight: bold;
+  line-height: 6.3rem;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+}
+.common-section .right-side p {
+  width: 40.3rem;
+  height: 9rem;
+  text-transform: lowercase;
+  margin-bottom: 3rem;
+}
+.common-section .right-side .common-button {
+  padding: 1rem 3rem;
+  background-color: var(--primary-button-background);
+  color: #fff;
+  margin-right: 2rem;
+}
+.common-section .right-side button:last-child {
+  color: var(--main-color);
+  background: transparent;
+}
+.common-section .right-side button:last-child:hover {
+  background: var(--primary-button-background);
+  color: #fff;
+}
+.common-section .right-side button:first-child:hover {
+  background: #d6633d;
+}
+/*-----------------third section starts from here---------------
+--------------------------------------------------------------- */
+.third-section {
+  width: 100%;
+  height: 70rem;
+  background-color: var(--background-color);
+  padding: 3rem 20rem;
+}
+.third-section h2 {
+  font-size: 5.5rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+.third-section p {
+  width: 40rem;
+  height: 9rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin: auto;
+}
+.third-section .section-third-task {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 4rem;
+}
+.third-section .section-third-task .task-1,
+.task-2,
+.task-3 {
+  padding-top: 2rem;
+  text-align: center;
+  transition: all 0.3s linear;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  margin-left: 10rem;
 }
-/* .common-section h2 {
+.third-section .section-third-task .task-1,
+.task-2,
+.task-3 h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+.third-section .section-third-task .task-1 img,
+.third-section .section-third-task .task-2 img,
+.third-section .section-third-task .task-3 img {
+  width: 15rem;
+  height: 15rem;
+  transition: all 0.3;
+  -webkit-transition: all 0;
+  -moz-transition: all 0;
+  -ms-transition: all 0;
+  -o-transition: all 0;
+}
+.third-section .section-third-task .task-1 img,
+.third-section .section-third-task .task-2 img {
+  height: 16rem;
+}
+.third-section .section-third-task .task-1:hover,
+.third-section .section-third-task .task-2:hover {
+  background: #fff;
+  box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+}
+.third-section .section-third-task .task-3 {
+  background: #fff;
+  box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+}
+.third-section .section-third-task .task-1:hover > img,
+.third-section .section-third-task .task-2:hover > img,
+.third-section .section-third-task .task-3:hover > img {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+#section-four .right-side h2 {
+  width: 50rem;
+}
+#section-four .left-side img {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+}
+/*-----------------fifth section starts from here---------------
+--------------------------------------------------------------- */
+#section-five .left-side img {
+  margin-left: 0;
+}
+#section-five .right-side {
+  justify-content: flex-start;
+  padding-top: 5rem;
+}
+#section-five .right-side h2 {
+  width: 63rem;
+  font-weight: 900;
   font-size: 4rem;
-} */
+  line-height: 6.3rem;
+}
+#section-five .right-side h3 {
+  text-transform: none;
+}
+#section-five .right-side p {
+  height: 3rem;
+}
+#section-five .right-side div {
+  margin-bottom: 5rem;
+}
+.fa-heart {
+  color: red;
+}
+/* footer style */
+footer {
+  width: 100%;
+  background: var(--background-color);
+  padding: 5rem 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+footer img {
+  width: 13rem;
+  height: 5.5rem;
+}
+footer .footer-menu {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer div h4 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+footer a {
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+/* socilal icon section */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  z-index: 10;
+}
+.icon-bar a {
+  width: 18rem;
+  background: #3b5999;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transform: translateX(-15rem);
+  -webkit-transform: translateX(-15rem);
+  -moz-transform: translateX(-15rem);
+  -ms-transform: translateX(-15rem);
+  -o-transform: translateX(-15rem);
+}
+.icon-bar a:hover {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.icon-bar a .fab {
+  padding-left: 1rem;
+  font-size: 3rem;
+  animation: letszoom 3s linear alternate-reverse infinite;
+  -webkit-animation: letszoom 3s linear alternate-reverse infinite;
+}
+@keyframes letszoom {
+  from {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+  }
+  to {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+  }
+}
+.icon-bar .twitter {
+  background: #00aced;
+}
+.icon-bar .instagram {
+  background: #e4405f;
+}
+.icon-bar .twitter {
+  background: #e4405f;
+}
+.icon-bar .youtube {
+  background: #e4405f;
+}
+.icon-bar .linekedin {
+  background: #00aced;
+}
+
+/* responsive css */
+/* @media (max-width: 770px) {
+  header,
+  .main-hero-section,
+  .common-section {
+    padding: 0 5rem;
+  }
+  header nav {
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
+  header .left-side-menu {
+    width: 100%;
+    display: block;
+    order: 2;
+  }
+  header nav .left-side-menu img {
+    display: block;
+    width: 100%;
+  }
+  header .left-side-menu .sub-menu {
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+  }
+  header .left-side-menu .sub-menu a {
+    margin-right: 1rem;
+  }
+
+  header nav .right-side-menu .sub-menu a {
+    width: 10rem;
+    height: 3.5rem;
+    border: 0.1rem solid var(--main-color);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .left-side-menu .sub-menu a li {
+    margin-right: 1.5rem;
+    margin-right: 0;
+    text-transform: uppercase;
+  }
+  header nav .right-side-menu .sub-menu button {
+    width: 13rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  /* hero section css */
+/* .main-hero-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-flow: column;
+  }
+  .main-hero-section .hero-left-side {
+    order: 2;
+    width: 100%;
+  }
+  .main-hero-section .hero-right-side h1 {
+    width: 35rem;
+    font-size: 5rem;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+  }
+  .main-hero-section .hero-right-side {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+  .main-hero-section .hero-right-side img {
+    width: 35rem;
+    height: 35rem;
+    margin: 0;
+    margin-top: 4rem;
+  }
+/* } */
+
+@media (max-width: 1620px) {
+  header,
+  .main-hero-section,
+  .common-section {
+    padding: 0 12rem;
+  }
+
+  .main-hero-section .hero-right-side img {
+    width: 95rem;
+    height: 95rem;
+    margin-right: 30rem;
+  }
+}
+
+/* laptop devices  */
+@media (max-width: 1280px) {
+  header,
+  .main-hero-section,
+  .common-section {
+    padding: 0 10rem;
+  }
+  html {
+    font-size: 50%;
+  }
+
+  .main-hero-section .hero-right-side img {
+    width: 80rem;
+    height: 80rem;
+
+    margin-right: 28rem;
+    margin-top: 5rem;
+  }
+}
+
+/* tablet mode css style   */
+@media (max-width: 980px) {
+  header,
+  .main-hero-section,
+  .common-section,
+  .section-third {
+    padding: 0 8rem;
+  }
+
+  .main-hero-section .hero-right-side {
+    width: 100%;
+    position: relative;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-hero-section .hero-right-side img {
+    width: 60rem;
+    height: 60rem;
+    /* margin-left: -11rem; */
+    margin-right: 0;
+    margin-top: 5rem;
+  }
+
+  .common-section {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .common-section .left-side figure {
+    height: 55rem;
+  }
+
+  .common-section .left-side figure img {
+    height: 50rem;
+    margin-left: 5rem;
+    width: 35rem;
+  }
+
+  .common-section .right-side {
+    margin-top: 6rem;
+    justify-content: start;
+    height: auto;
+  }
+
+  .common-section .right-side h2 {
+    font-size: 4.5rem;
+    width: 35rem;
+  }
+
+  /* section 3 style  */
+  .section-third {
+    height: auto;
+    padding: 0 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .section-third h2 {
+    width: auto;
+    padding: 0 1rem;
+    font-size: 4.5rem;
+    line-height: 6rem;
+    padding-top: 5rem;
+  }
+
+  .section-third .section-third-task {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 4rem;
+    padding: 0;
+  }
+
+  .section-third .section-third-task .task-1 img,
+  .section-third .section-third-task .task-2 img,
+  .section-third .section-third-task .task-3 img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .section-third .section-third-task .task-2 {
+    margin: 2rem 0;
+  }
+
+  /* section 4 style  */
+
+  #section-four .right-side {
+    order: 2;
+  }
+
+  #section-four .right-side h2 {
+    width: 40rem;
+  }
+
+  #section-four .left-side img {
+    height: 38rem;
+    width: 38rem;
+    margin-top: 5rem;
+  }
+
+  /* section 5 style  */
+
+  #section-five .right-side {
+    order: 2;
+  }
+
+  #section-five .right-side h2 {
+    width: 40rem;
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+  }
+
+  #section-five .left-side img {
+    height: 38rem;
+    width: 38rem;
+    margin-top: 5rem;
+  }
+
+  /* section 6 style  */
+  footer {
+    width: 100%;
+    padding: 3rem 5rem;
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  footer .footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  footer .footer-menu h4 {
+    font-size: 1.5rem;
+  }
+
+  /* icons bar  */
+  .icon-bar {
+    top: 35%;
+  }
+}
+
+/* mobile devices */
+@media (max-width: 770px) {
+  header,
+  .main-hero-section,
+  .common-section {
+    padding: 0 5rem;
+  }
+
+  header nav {
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
+
+  header nav .left-side-menu {
+    width: 100%;
+    display: block;
+    order: 2;
+  }
+
+  header nav .left-side-menu img {
+    display: block;
+    width: 100%;
+  }
+
+  header .left-side-menu .sub-menu {
+    width: 100%;
+    display: block;
+  }
+
+  header nav .left-side-menu .sub-menu a {
+    margin-right: 2rem;
+  }
+
+  header nav .left-side-menu .sub-menu a li {
+    font-size: 1.7rem;
+  }
+
+  header nav .right-side-menu {
+    width: 100%;
+    order: 1;
+  }
+
+  header nav .right-side-menu .sub-menu a {
+    width: 10rem;
+    height: 3.5rem;
+    border: 0.1rem solid var(--main-color);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  header nav .right-side-menu .sub-menu a li {
+    font-size: 1.5rem;
+    margin-right: 0;
+    text-transform: uppercase;
+  }
+
+  header nav .right-side-menu .sub-menu button {
+    width: 13rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  /* hero section css style  */
+  .main-hero-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .main-hero-section .hero-left-side {
+    order: 2;
+    width: 100%;
+  }
+
+  .main-hero-section .hero-left-side h1 {
+    width: 35rem;
+    font-size: 5rem;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-hero-section .hero-left-side p {
+    width: 35rem;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .main-hero-section .hero-right-side {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: transparent;
+  }
+
+  .main-hero-section .hero-right-side img {
+    width: 35rem;
+    height: 35rem;
+    margin: 0;
+    margin-top: 4rem;
+  }
+}
